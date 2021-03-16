@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 #ARG IMAGE=debian:buster-slim
-FROM debian:buster-slim
+FROM debian:buster-slim:latest
 
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
 
